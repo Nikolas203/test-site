@@ -107,3 +107,64 @@ main .block-1 .text :last-child a:hover{
 main .block-1 .image img {
     width: 100%;
 }
+
+/* block2 */
+
+.block-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.block-2 .text {
+    width: 50%;
+    justify-content: center;
+}
+
+.block-2 .header h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.block-2 .text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.stephen {
+    display: flex;
+    flex-direction: row;
+}
+
+.stephen .text p {
+    margin: 0px 0px 0px 0px;
+}
+
+.stephen .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.stephen .text :first-child {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+stephen .text :last-child {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #645C55;
+}
